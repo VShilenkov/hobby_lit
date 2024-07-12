@@ -1,0 +1,8 @@
+{
+    "cmake.generator": "Unix Makefiles",
+    "cmake.installPrefix": "${env:HOME}/Hearth/install_root",
+
+    "python.defaultInterpreterPath": "/usr/bin/python3.8",
+    "esbonio.sphinx.forceFullBuild": false,
+    "esbonio.sphinx.confDir": ""
+}

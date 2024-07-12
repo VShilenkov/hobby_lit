@@ -1,0 +1,4 @@
+
+.. role:: inline_rst(code)
+    :language: rst
+    :class: rst-inline

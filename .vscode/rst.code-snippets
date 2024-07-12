@@ -1,0 +1,32 @@
+{
+    "book": {
+        "prefix": "nbook",
+        "scope": "restructuredtext",
+        "body": [
+
+            ".. athenaeum:book:: $0",
+            "    :subtitle: ",
+            "    :title_localized: ",
+            "    :subtitle_localized: ",
+            "    :authors: ",
+            "    :tags: ",
+            "",
+            "    :issue: ",
+            "    :year: 20",
+            "    :language: eng",
+            "    :edition: 1",
+            "    :series: ",
+            "    :volume: ",
+            "    :volume_name: ",
+            "    :part: ",
+            "    :part_name: ",
+            "    :fascicle: ",
+            "    :fascicle_name: ",
+            "    :link Amazon: ",
+            "    :link Ozon: ",
+            "    :link Labirint: ",
+            ""
+        ],
+        "description": "Athenaeum book"
+    },
+}

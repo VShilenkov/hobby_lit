@@ -1,0 +1,32 @@
+import datetime
+import sys
+
+sys.path.insert(0, r'@docs_conf_path@/ext')
+
+source_suffix = '.rst'
+master_doc = 'index'
+
+project = '@PROJECT_NAME@'
+now = datetime.datetime.now()
+copyright = '%d. VShylienkov' % now.year
+version = '@docs_conf_version@'  # feature version
+release = '@docs_conf_release@'  # full version string
+
+primary_domain = ''
+highlight_language = 'none'
+
+extensions = ["Biblio"
+             ]
+
+templates_path = ['@docs_conf_path@/templates']
+
+html_show_sourcelink = True
+html_static_path = ['@docs_conf_path@/static']
+html_css_files = ['hobby_lit.css']
+html_title = 'Home Library %s' % release
+html_short_title = '%s HobbyLit' % release
+
+# Sphinx will warn about all references where the target cannot be found.
+nitpicky = True
+
+todo_include_todos = True
